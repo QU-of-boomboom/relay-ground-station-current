@@ -1,0 +1,5 @@
+set video_flow_dir [file dirname [info script]]
+set video_project_dir [file dirname $video_flow_dir]
+source [file join $video_project_dir ip_patch process_control implementation_opt_pre.tcl]
+source [file join $video_flow_dir video_npu_body_guard.tcl]
+video_npu_preserve [file join [pwd] npu_body_before_opt.tsv]

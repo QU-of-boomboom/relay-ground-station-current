@@ -1,0 +1,1425 @@
+tool	version	2018.3
+project	PART	xc7z030ffg676-2
+project	TARGET_LANGUAGE	Verilog
+project	SIMULATOR_LANGUAGE	Mixed
+project	DEFAULT_LIB	xil_defaultlib
+project	IP_REPO_PATHS	{<PROJECT>/PS_AI IP}
+fileset:clk_wiz_0	FILESET_TYPE	BlockSrcs
+fileset:clk_wiz_0	GENERIC	
+fileset:clk_wiz_0	INCLUDE_DIRS	
+fileset:clk_wiz_0	TOP	clk_wiz_0
+fileset:clk_wiz_0	TOP_AUTO_SET	0
+fileset:clk_wiz_0	VERILOG_DEFINE	
+fileset:clk_wiz_0	VHDL_VERSION	vhdl_2k
+fileset:constrs_1	FILESET_TYPE	Constrs
+fileset:mig_7series_0	FILESET_TYPE	BlockSrcs
+fileset:mig_7series_0	GENERIC	
+fileset:mig_7series_0	INCLUDE_DIRS	
+fileset:mig_7series_0	TOP	mig_7series_0
+fileset:mig_7series_0	TOP_AUTO_SET	0
+fileset:mig_7series_0	VERILOG_DEFINE	
+fileset:mig_7series_0	VHDL_VERSION	vhdl_2k
+fileset:mna_idfifo_w12	FILESET_TYPE	BlockSrcs
+fileset:mna_idfifo_w12	GENERIC	
+fileset:mna_idfifo_w12	INCLUDE_DIRS	
+fileset:mna_idfifo_w12	TOP	mna_idfifo_w12
+fileset:mna_idfifo_w12	TOP_AUTO_SET	0
+fileset:mna_idfifo_w12	VERILOG_DEFINE	
+fileset:mna_idfifo_w12	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_m00_regslice_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_m00_regslice_0	GENERIC	
+fileset:ps_ai_m00_regslice_0	INCLUDE_DIRS	
+fileset:ps_ai_m00_regslice_0	TOP	ps_ai_m00_regslice_0
+fileset:ps_ai_m00_regslice_0	TOP_AUTO_SET	0
+fileset:ps_ai_m00_regslice_0	VERILOG_DEFINE	
+fileset:ps_ai_m00_regslice_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_proc_sys_reset_0_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_proc_sys_reset_0_0	GENERIC	
+fileset:ps_ai_proc_sys_reset_0_0	INCLUDE_DIRS	
+fileset:ps_ai_proc_sys_reset_0_0	TOP	ps_ai_proc_sys_reset_0_0
+fileset:ps_ai_proc_sys_reset_0_0	TOP_AUTO_SET	0
+fileset:ps_ai_proc_sys_reset_0_0	VERILOG_DEFINE	
+fileset:ps_ai_proc_sys_reset_0_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_proc_sys_reset_0_1	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_proc_sys_reset_0_1	GENERIC	
+fileset:ps_ai_proc_sys_reset_0_1	INCLUDE_DIRS	
+fileset:ps_ai_proc_sys_reset_0_1	TOP	ps_ai_proc_sys_reset_0_1
+fileset:ps_ai_proc_sys_reset_0_1	TOP_AUTO_SET	0
+fileset:ps_ai_proc_sys_reset_0_1	VERILOG_DEFINE	
+fileset:ps_ai_proc_sys_reset_0_1	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_processing_system7_0_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_processing_system7_0_0	GENERIC	
+fileset:ps_ai_processing_system7_0_0	INCLUDE_DIRS	
+fileset:ps_ai_processing_system7_0_0	TOP	ps_ai_processing_system7_0_0
+fileset:ps_ai_processing_system7_0_0	TOP_AUTO_SET	0
+fileset:ps_ai_processing_system7_0_0	VERILOG_DEFINE	
+fileset:ps_ai_processing_system7_0_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_s00_regslice_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_s00_regslice_0	GENERIC	
+fileset:ps_ai_s00_regslice_0	INCLUDE_DIRS	
+fileset:ps_ai_s00_regslice_0	TOP	ps_ai_s00_regslice_0
+fileset:ps_ai_s00_regslice_0	TOP_AUTO_SET	0
+fileset:ps_ai_s00_regslice_0	VERILOG_DEFINE	
+fileset:ps_ai_s00_regslice_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_s00_regslice_1	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_s00_regslice_1	GENERIC	
+fileset:ps_ai_s00_regslice_1	INCLUDE_DIRS	
+fileset:ps_ai_s00_regslice_1	TOP	ps_ai_s00_regslice_1
+fileset:ps_ai_s00_regslice_1	TOP_AUTO_SET	0
+fileset:ps_ai_s00_regslice_1	VERILOG_DEFINE	
+fileset:ps_ai_s00_regslice_1	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_s01_regslice_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_s01_regslice_0	GENERIC	
+fileset:ps_ai_s01_regslice_0	INCLUDE_DIRS	
+fileset:ps_ai_s01_regslice_0	TOP	ps_ai_s01_regslice_0
+fileset:ps_ai_s01_regslice_0	TOP_AUTO_SET	0
+fileset:ps_ai_s01_regslice_0	VERILOG_DEFINE	
+fileset:ps_ai_s01_regslice_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_util_vector_logic_0_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_util_vector_logic_0_0	GENERIC	
+fileset:ps_ai_util_vector_logic_0_0	INCLUDE_DIRS	
+fileset:ps_ai_util_vector_logic_0_0	TOP	ps_ai_util_vector_logic_0_0
+fileset:ps_ai_util_vector_logic_0_0	TOP_AUTO_SET	0
+fileset:ps_ai_util_vector_logic_0_0	VERILOG_DEFINE	
+fileset:ps_ai_util_vector_logic_0_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_xbar_0	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_xbar_0	GENERIC	
+fileset:ps_ai_xbar_0	INCLUDE_DIRS	
+fileset:ps_ai_xbar_0	TOP	ps_ai_xbar_0
+fileset:ps_ai_xbar_0	TOP_AUTO_SET	0
+fileset:ps_ai_xbar_0	VERILOG_DEFINE	
+fileset:ps_ai_xbar_0	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_xbar_1	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_xbar_1	GENERIC	
+fileset:ps_ai_xbar_1	INCLUDE_DIRS	
+fileset:ps_ai_xbar_1	TOP	ps_ai_xbar_1
+fileset:ps_ai_xbar_1	TOP_AUTO_SET	0
+fileset:ps_ai_xbar_1	VERILOG_DEFINE	
+fileset:ps_ai_xbar_1	VHDL_VERSION	vhdl_2k
+fileset:ps_ai_xbar_4	FILESET_TYPE	BlockSrcs
+fileset:ps_ai_xbar_4	GENERIC	
+fileset:ps_ai_xbar_4	INCLUDE_DIRS	
+fileset:ps_ai_xbar_4	TOP	ps_ai_xbar_4
+fileset:ps_ai_xbar_4	TOP_AUTO_SET	0
+fileset:ps_ai_xbar_4	VERILOG_DEFINE	
+fileset:ps_ai_xbar_4	VHDL_VERSION	vhdl_2k
+fileset:sim_1	FILESET_TYPE	SimulationSrcs
+fileset:sim_1	GENERIC	
+fileset:sim_1	INCLUDE_DIRS	
+fileset:sim_1	SOURCE_SET	sources_1
+fileset:sim_1	TOP	ai7030_edif_top
+fileset:sim_1	TOP_LIB	xil_defaultlib
+fileset:sim_1	VERILOG_DEFINE	GS_COMPACT_STORAGE GS_LINK_SERVICE GS_SHARED_QUALITY GS_FROZEN_CONTROL GS_FROZEN_EVIDENCE GS_SEQUENCED_SERVICE GS_FROZEN_CACHE
+fileset:sources_1	FILESET_TYPE	DesignSrcs
+fileset:sources_1	GENERIC	
+fileset:sources_1	INCLUDE_DIRS	
+fileset:sources_1	TOP	ai7030_edif_top
+fileset:sources_1	TOP_AUTO_SET	0
+fileset:sources_1	VERILOG_DEFINE	GS_COMPACT_STORAGE GS_LINK_SERVICE GS_SHARED_QUALITY GS_FROZEN_CONTROL GS_FROZEN_EVIDENCE GS_SEQUENCED_SERVICE GS_FROZEN_CACHE
+fileset:sources_1	VHDL_VERSION	vhdl_2k
+fileset:utils_1	FILESET_TYPE	Utils
+run:clk_wiz_0_impl_1	CONSTRSET	clk_wiz_0
+run:clk_wiz_0_impl_1	FLOW	Vivado Implementation 2018
+run:clk_wiz_0_impl_1	PART	xc7z030ffg676-2
+run:clk_wiz_0_impl_1	SRCSET	clk_wiz_0
+run:clk_wiz_0_impl_1	STEPS.INIT_DESIGN.REPORTS	clk_wiz_0_impl_1_init_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.REPORTS	clk_wiz_0_impl_1_opt_report_drc_0 clk_wiz_0_impl_1_opt_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	clk_wiz_0_impl_1_phys_opt_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	clk_wiz_0_impl_1_place_report_io_0 clk_wiz_0_impl_1_place_report_utilization_0 clk_wiz_0_impl_1_place_report_control_sets_0 clk_wiz_0_impl_1_place_report_incremental_reuse_0 clk_wiz_0_impl_1_place_report_incremental_reuse_1 clk_wiz_0_impl_1_place_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:clk_wiz_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	clk_wiz_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	clk_wiz_0_impl_1_post_route_phys_opt_report_timing_summary_0 clk_wiz_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:clk_wiz_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	clk_wiz_0_impl_1_power_opt_report_timing_summary_0
+run:clk_wiz_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	clk_wiz_0_impl_1_route_report_drc_0 clk_wiz_0_impl_1_route_report_methodology_0 clk_wiz_0_impl_1_route_report_power_0 clk_wiz_0_impl_1_route_report_route_status_0 clk_wiz_0_impl_1_route_report_timing_summary_0 clk_wiz_0_impl_1_route_report_incremental_reuse_0 clk_wiz_0_impl_1_route_report_clock_utilization_0 clk_wiz_0_impl_1_route_report_bus_skew_0 clk_wiz_0_impl_1_route_implementation_log_0
+run:clk_wiz_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	clk_wiz_0_impl_1_bitstream_report_webtalk_0 clk_wiz_0_impl_1_bitstream_implementation_log_0
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:clk_wiz_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:clk_wiz_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:clk_wiz_0_synth_1	CONSTRSET	clk_wiz_0
+run:clk_wiz_0_synth_1	FLOW	Vivado Synthesis 2018
+run:clk_wiz_0_synth_1	PART	xc7z030ffg676-2
+run:clk_wiz_0_synth_1	SRCSET	clk_wiz_0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	clk_wiz_0_synth_1_synth_report_utilization_0 clk_wiz_0_synth_1_synth_synthesis_report_0
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:clk_wiz_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:clk_wiz_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:impl_1	CONSTRSET	constrs_1
+run:impl_1	FLOW	Vivado Implementation 2018
+run:impl_1	PART	xc7z030ffg676-2
+run:impl_1	SRCSET	sources_1
+run:impl_1	STEPS.INIT_DESIGN.REPORTS	impl_1_init_report_timing_summary_0
+run:impl_1	STEPS.INIT_DESIGN.TCL.POST	<PROJECT>/ground_station_flow/formal_linked_audit.tcl
+run:impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:impl_1	STEPS.OPT_DESIGN.REPORTS	impl_1_opt_report_drc_0 impl_1_opt_report_timing_summary_0
+run:impl_1	STEPS.OPT_DESIGN.TCL.POST	<PROJECT>/ground_station_flow/video_npu_opt_post.tcl
+run:impl_1	STEPS.OPT_DESIGN.TCL.PRE	<PROJECT>/ground_station_flow/video_npu_opt_pre.tcl
+run:impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	AggressiveExplore
+run:impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	1
+run:impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	impl_1_phys_opt_report_timing_summary_0
+run:impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Explore
+run:impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.PLACE_DESIGN.REPORTS	impl_1_place_report_io_0 impl_1_place_report_utilization_0 impl_1_place_report_control_sets_0 impl_1_place_report_incremental_reuse_0 impl_1_place_report_incremental_reuse_1 impl_1_place_report_timing_summary_0
+run:impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:impl_1	STEPS.PLACE_DESIGN.TCL.PRE	<PROJECT>/ground_station_flow/video_pre_place.tcl
+run:impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	impl_1_post_place_power_opt_report_timing_summary_0
+run:impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	impl_1_post_route_phys_opt_report_timing_summary_0 impl_1_post_route_phys_opt_report_bus_skew_0
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	impl_1_power_opt_report_timing_summary_0
+run:impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	NoTimingRelaxation
+run:impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.ROUTE_DESIGN.REPORTS	impl_1_route_report_drc_0 impl_1_route_report_methodology_0 impl_1_route_report_power_0 impl_1_route_report_route_status_0 impl_1_route_report_timing_summary_0 impl_1_route_report_incremental_reuse_0 impl_1_route_report_clock_utilization_0 impl_1_route_report_bus_skew_0 impl_1_route_implementation_log_0
+run:impl_1	STEPS.ROUTE_DESIGN.TCL.POST	<PROJECT>/ground_station_flow/formal_route_post.tcl
+run:impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:impl_1	STEPS.WRITE_BITSTREAM.REPORTS	impl_1_bitstream_report_webtalk_0 impl_1_bitstream_implementation_log_0
+run:impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	<PROJECT>/ip_patch/process_control/write_bitstream_post.tcl
+run:impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	<PROJECT>/ground_station_flow/formal_bitstream_guard.tcl
+run:impl_1	STRATEGY	Performance_NetDelay_high
+run:mig_7series_0_impl_1	CONSTRSET	mig_7series_0
+run:mig_7series_0_impl_1	FLOW	Vivado Implementation 2018
+run:mig_7series_0_impl_1	PART	xc7z030ffg676-2
+run:mig_7series_0_impl_1	SRCSET	mig_7series_0
+run:mig_7series_0_impl_1	STEPS.INIT_DESIGN.REPORTS	mig_7series_0_impl_1_init_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.REPORTS	mig_7series_0_impl_1_opt_report_drc_0 mig_7series_0_impl_1_opt_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	mig_7series_0_impl_1_phys_opt_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	mig_7series_0_impl_1_place_report_io_0 mig_7series_0_impl_1_place_report_utilization_0 mig_7series_0_impl_1_place_report_control_sets_0 mig_7series_0_impl_1_place_report_incremental_reuse_0 mig_7series_0_impl_1_place_report_incremental_reuse_1 mig_7series_0_impl_1_place_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:mig_7series_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	mig_7series_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	mig_7series_0_impl_1_post_route_phys_opt_report_timing_summary_0 mig_7series_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:mig_7series_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	mig_7series_0_impl_1_power_opt_report_timing_summary_0
+run:mig_7series_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	mig_7series_0_impl_1_route_report_drc_0 mig_7series_0_impl_1_route_report_methodology_0 mig_7series_0_impl_1_route_report_power_0 mig_7series_0_impl_1_route_report_route_status_0 mig_7series_0_impl_1_route_report_timing_summary_0 mig_7series_0_impl_1_route_report_incremental_reuse_0 mig_7series_0_impl_1_route_report_clock_utilization_0 mig_7series_0_impl_1_route_report_bus_skew_0 mig_7series_0_impl_1_route_implementation_log_0
+run:mig_7series_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	mig_7series_0_impl_1_bitstream_report_webtalk_0 mig_7series_0_impl_1_bitstream_implementation_log_0
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:mig_7series_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:mig_7series_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:mig_7series_0_synth_1	CONSTRSET	mig_7series_0
+run:mig_7series_0_synth_1	FLOW	Vivado Synthesis 2018
+run:mig_7series_0_synth_1	PART	xc7z030ffg676-2
+run:mig_7series_0_synth_1	SRCSET	mig_7series_0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	mig_7series_0_synth_1_synth_report_utilization_0 mig_7series_0_synth_1_synth_synthesis_report_0
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:mig_7series_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:mig_7series_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:mna_idfifo_w12_impl_1	CONSTRSET	mna_idfifo_w12
+run:mna_idfifo_w12_impl_1	FLOW	Vivado Implementation 2018
+run:mna_idfifo_w12_impl_1	PART	xc7z030ffg676-2
+run:mna_idfifo_w12_impl_1	SRCSET	mna_idfifo_w12
+run:mna_idfifo_w12_impl_1	STEPS.INIT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_init_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_opt_report_drc_0 mna_idfifo_w12_impl_1_opt_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_phys_opt_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.PLACE_DESIGN.REPORTS	mna_idfifo_w12_impl_1_place_report_io_0 mna_idfifo_w12_impl_1_place_report_utilization_0 mna_idfifo_w12_impl_1_place_report_control_sets_0 mna_idfifo_w12_impl_1_place_report_incremental_reuse_0 mna_idfifo_w12_impl_1_place_report_incremental_reuse_1 mna_idfifo_w12_impl_1_place_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:mna_idfifo_w12_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_post_place_power_opt_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_post_route_phys_opt_report_timing_summary_0 mna_idfifo_w12_impl_1_post_route_phys_opt_report_bus_skew_0
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:mna_idfifo_w12_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	mna_idfifo_w12_impl_1_power_opt_report_timing_summary_0
+run:mna_idfifo_w12_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.ROUTE_DESIGN.REPORTS	mna_idfifo_w12_impl_1_route_report_drc_0 mna_idfifo_w12_impl_1_route_report_methodology_0 mna_idfifo_w12_impl_1_route_report_power_0 mna_idfifo_w12_impl_1_route_report_route_status_0 mna_idfifo_w12_impl_1_route_report_timing_summary_0 mna_idfifo_w12_impl_1_route_report_incremental_reuse_0 mna_idfifo_w12_impl_1_route_report_clock_utilization_0 mna_idfifo_w12_impl_1_route_report_bus_skew_0 mna_idfifo_w12_impl_1_route_implementation_log_0
+run:mna_idfifo_w12_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	mna_idfifo_w12_impl_1_bitstream_report_webtalk_0 mna_idfifo_w12_impl_1_bitstream_implementation_log_0
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:mna_idfifo_w12_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:mna_idfifo_w12_impl_1	STRATEGY	Vivado Implementation Defaults
+run:mna_idfifo_w12_synth_1	CONSTRSET	mna_idfifo_w12
+run:mna_idfifo_w12_synth_1	FLOW	Vivado Synthesis 2018
+run:mna_idfifo_w12_synth_1	PART	xc7z030ffg676-2
+run:mna_idfifo_w12_synth_1	SRCSET	mna_idfifo_w12
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.REPORTS	mna_idfifo_w12_synth_1_synth_report_utilization_0 mna_idfifo_w12_synth_1_synth_synthesis_report_0
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:mna_idfifo_w12_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:mna_idfifo_w12_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_m00_regslice_0_impl_1	CONSTRSET	ps_ai_m00_regslice_0
+run:ps_ai_m00_regslice_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_m00_regslice_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_m00_regslice_0_impl_1	SRCSET	ps_ai_m00_regslice_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_init_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_opt_report_drc_0 ps_ai_m00_regslice_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_place_report_io_0 ps_ai_m00_regslice_0_impl_1_place_report_utilization_0 ps_ai_m00_regslice_0_impl_1_place_report_control_sets_0 ps_ai_m00_regslice_0_impl_1_place_report_incremental_reuse_0 ps_ai_m00_regslice_0_impl_1_place_report_incremental_reuse_1 ps_ai_m00_regslice_0_impl_1_place_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_m00_regslice_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_m00_regslice_0_impl_1_route_report_drc_0 ps_ai_m00_regslice_0_impl_1_route_report_methodology_0 ps_ai_m00_regslice_0_impl_1_route_report_power_0 ps_ai_m00_regslice_0_impl_1_route_report_route_status_0 ps_ai_m00_regslice_0_impl_1_route_report_timing_summary_0 ps_ai_m00_regslice_0_impl_1_route_report_incremental_reuse_0 ps_ai_m00_regslice_0_impl_1_route_report_clock_utilization_0 ps_ai_m00_regslice_0_impl_1_route_report_bus_skew_0 ps_ai_m00_regslice_0_impl_1_route_implementation_log_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_m00_regslice_0_impl_1_bitstream_report_webtalk_0 ps_ai_m00_regslice_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_m00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_m00_regslice_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_m00_regslice_0_synth_1	CONSTRSET	ps_ai_m00_regslice_0
+run:ps_ai_m00_regslice_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_m00_regslice_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_m00_regslice_0_synth_1	SRCSET	ps_ai_m00_regslice_0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_m00_regslice_0_synth_1_synth_report_utilization_0 ps_ai_m00_regslice_0_synth_1_synth_synthesis_report_0
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_m00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_m00_regslice_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_proc_sys_reset_0_0_impl_1	CONSTRSET	ps_ai_proc_sys_reset_0_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_proc_sys_reset_0_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_proc_sys_reset_0_0_impl_1	SRCSET	ps_ai_proc_sys_reset_0_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_init_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_opt_report_drc_0 ps_ai_proc_sys_reset_0_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_place_report_io_0 ps_ai_proc_sys_reset_0_0_impl_1_place_report_utilization_0 ps_ai_proc_sys_reset_0_0_impl_1_place_report_control_sets_0 ps_ai_proc_sys_reset_0_0_impl_1_place_report_incremental_reuse_0 ps_ai_proc_sys_reset_0_0_impl_1_place_report_incremental_reuse_1 ps_ai_proc_sys_reset_0_0_impl_1_place_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_proc_sys_reset_0_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_route_report_drc_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_methodology_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_power_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_route_status_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_timing_summary_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_incremental_reuse_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_clock_utilization_0 ps_ai_proc_sys_reset_0_0_impl_1_route_report_bus_skew_0 ps_ai_proc_sys_reset_0_0_impl_1_route_implementation_log_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_proc_sys_reset_0_0_impl_1_bitstream_report_webtalk_0 ps_ai_proc_sys_reset_0_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_proc_sys_reset_0_0_synth_1	CONSTRSET	ps_ai_proc_sys_reset_0_0
+run:ps_ai_proc_sys_reset_0_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_proc_sys_reset_0_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_proc_sys_reset_0_0_synth_1	SRCSET	ps_ai_proc_sys_reset_0_0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_0_synth_1_synth_report_utilization_0 ps_ai_proc_sys_reset_0_0_synth_1_synth_synthesis_report_0
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_proc_sys_reset_0_1_impl_1	CONSTRSET	ps_ai_proc_sys_reset_0_1
+run:ps_ai_proc_sys_reset_0_1_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_proc_sys_reset_0_1_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_proc_sys_reset_0_1_impl_1	SRCSET	ps_ai_proc_sys_reset_0_1
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_init_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_opt_report_drc_0 ps_ai_proc_sys_reset_0_1_impl_1_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_place_report_io_0 ps_ai_proc_sys_reset_0_1_impl_1_place_report_utilization_0 ps_ai_proc_sys_reset_0_1_impl_1_place_report_control_sets_0 ps_ai_proc_sys_reset_0_1_impl_1_place_report_incremental_reuse_0 ps_ai_proc_sys_reset_0_1_impl_1_place_report_incremental_reuse_1 ps_ai_proc_sys_reset_0_1_impl_1_place_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_proc_sys_reset_0_1_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_route_report_drc_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_methodology_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_power_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_route_status_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_timing_summary_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_incremental_reuse_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_clock_utilization_0 ps_ai_proc_sys_reset_0_1_impl_1_route_report_bus_skew_0 ps_ai_proc_sys_reset_0_1_impl_1_route_implementation_log_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_proc_sys_reset_0_1_impl_1_bitstream_report_webtalk_0 ps_ai_proc_sys_reset_0_1_impl_1_bitstream_implementation_log_0
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_proc_sys_reset_0_1_synth_1	CONSTRSET	ps_ai_proc_sys_reset_0_1
+run:ps_ai_proc_sys_reset_0_1_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_proc_sys_reset_0_1_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_proc_sys_reset_0_1_synth_1	SRCSET	ps_ai_proc_sys_reset_0_1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_proc_sys_reset_0_1_synth_1_synth_report_utilization_0 ps_ai_proc_sys_reset_0_1_synth_1_synth_synthesis_report_0
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_proc_sys_reset_0_1_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_proc_sys_reset_0_1_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_processing_system7_0_0_impl_1	CONSTRSET	ps_ai_processing_system7_0_0
+run:ps_ai_processing_system7_0_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_processing_system7_0_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_processing_system7_0_0_impl_1	SRCSET	ps_ai_processing_system7_0_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_init_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_opt_report_drc_0 ps_ai_processing_system7_0_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_place_report_io_0 ps_ai_processing_system7_0_0_impl_1_place_report_utilization_0 ps_ai_processing_system7_0_0_impl_1_place_report_control_sets_0 ps_ai_processing_system7_0_0_impl_1_place_report_incremental_reuse_0 ps_ai_processing_system7_0_0_impl_1_place_report_incremental_reuse_1 ps_ai_processing_system7_0_0_impl_1_place_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_processing_system7_0_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_processing_system7_0_0_impl_1_route_report_drc_0 ps_ai_processing_system7_0_0_impl_1_route_report_methodology_0 ps_ai_processing_system7_0_0_impl_1_route_report_power_0 ps_ai_processing_system7_0_0_impl_1_route_report_route_status_0 ps_ai_processing_system7_0_0_impl_1_route_report_timing_summary_0 ps_ai_processing_system7_0_0_impl_1_route_report_incremental_reuse_0 ps_ai_processing_system7_0_0_impl_1_route_report_clock_utilization_0 ps_ai_processing_system7_0_0_impl_1_route_report_bus_skew_0 ps_ai_processing_system7_0_0_impl_1_route_implementation_log_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_processing_system7_0_0_impl_1_bitstream_report_webtalk_0 ps_ai_processing_system7_0_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_processing_system7_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_processing_system7_0_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_processing_system7_0_0_synth_1	CONSTRSET	ps_ai_processing_system7_0_0
+run:ps_ai_processing_system7_0_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_processing_system7_0_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_processing_system7_0_0_synth_1	SRCSET	ps_ai_processing_system7_0_0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_processing_system7_0_0_synth_1_synth_report_utilization_0 ps_ai_processing_system7_0_0_synth_1_synth_synthesis_report_0
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_processing_system7_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_processing_system7_0_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_s00_regslice_0_impl_1	CONSTRSET	ps_ai_s00_regslice_0
+run:ps_ai_s00_regslice_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_s00_regslice_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_s00_regslice_0_impl_1	SRCSET	ps_ai_s00_regslice_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_init_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_opt_report_drc_0 ps_ai_s00_regslice_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_place_report_io_0 ps_ai_s00_regslice_0_impl_1_place_report_utilization_0 ps_ai_s00_regslice_0_impl_1_place_report_control_sets_0 ps_ai_s00_regslice_0_impl_1_place_report_incremental_reuse_0 ps_ai_s00_regslice_0_impl_1_place_report_incremental_reuse_1 ps_ai_s00_regslice_0_impl_1_place_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_s00_regslice_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_s00_regslice_0_impl_1_route_report_drc_0 ps_ai_s00_regslice_0_impl_1_route_report_methodology_0 ps_ai_s00_regslice_0_impl_1_route_report_power_0 ps_ai_s00_regslice_0_impl_1_route_report_route_status_0 ps_ai_s00_regslice_0_impl_1_route_report_timing_summary_0 ps_ai_s00_regslice_0_impl_1_route_report_incremental_reuse_0 ps_ai_s00_regslice_0_impl_1_route_report_clock_utilization_0 ps_ai_s00_regslice_0_impl_1_route_report_bus_skew_0 ps_ai_s00_regslice_0_impl_1_route_implementation_log_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_s00_regslice_0_impl_1_bitstream_report_webtalk_0 ps_ai_s00_regslice_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_s00_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_s00_regslice_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_s00_regslice_0_synth_1	CONSTRSET	ps_ai_s00_regslice_0
+run:ps_ai_s00_regslice_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_s00_regslice_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_s00_regslice_0_synth_1	SRCSET	ps_ai_s00_regslice_0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_s00_regslice_0_synth_1_synth_report_utilization_0 ps_ai_s00_regslice_0_synth_1_synth_synthesis_report_0
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_s00_regslice_1_impl_1	CONSTRSET	ps_ai_s00_regslice_1
+run:ps_ai_s00_regslice_1_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_s00_regslice_1_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_s00_regslice_1_impl_1	SRCSET	ps_ai_s00_regslice_1
+run:ps_ai_s00_regslice_1_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_init_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_opt_report_drc_0 ps_ai_s00_regslice_1_impl_1_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_place_report_io_0 ps_ai_s00_regslice_1_impl_1_place_report_utilization_0 ps_ai_s00_regslice_1_impl_1_place_report_control_sets_0 ps_ai_s00_regslice_1_impl_1_place_report_incremental_reuse_0 ps_ai_s00_regslice_1_impl_1_place_report_incremental_reuse_1 ps_ai_s00_regslice_1_impl_1_place_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_s00_regslice_1_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_s00_regslice_1_impl_1_route_report_drc_0 ps_ai_s00_regslice_1_impl_1_route_report_methodology_0 ps_ai_s00_regslice_1_impl_1_route_report_power_0 ps_ai_s00_regslice_1_impl_1_route_report_route_status_0 ps_ai_s00_regslice_1_impl_1_route_report_timing_summary_0 ps_ai_s00_regslice_1_impl_1_route_report_incremental_reuse_0 ps_ai_s00_regslice_1_impl_1_route_report_clock_utilization_0 ps_ai_s00_regslice_1_impl_1_route_report_bus_skew_0 ps_ai_s00_regslice_1_impl_1_route_implementation_log_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_s00_regslice_1_impl_1_bitstream_report_webtalk_0 ps_ai_s00_regslice_1_impl_1_bitstream_implementation_log_0
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_s00_regslice_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_s00_regslice_1_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_s00_regslice_1_synth_1	CONSTRSET	ps_ai_s00_regslice_1
+run:ps_ai_s00_regslice_1_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_s00_regslice_1_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_s00_regslice_1_synth_1	SRCSET	ps_ai_s00_regslice_1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_s00_regslice_1_synth_1_synth_report_utilization_0 ps_ai_s00_regslice_1_synth_1_synth_synthesis_report_0
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_s00_regslice_1_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_s00_regslice_1_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_s01_regslice_0_impl_1	CONSTRSET	ps_ai_s01_regslice_0
+run:ps_ai_s01_regslice_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_s01_regslice_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_s01_regslice_0_impl_1	SRCSET	ps_ai_s01_regslice_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_init_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_opt_report_drc_0 ps_ai_s01_regslice_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_place_report_io_0 ps_ai_s01_regslice_0_impl_1_place_report_utilization_0 ps_ai_s01_regslice_0_impl_1_place_report_control_sets_0 ps_ai_s01_regslice_0_impl_1_place_report_incremental_reuse_0 ps_ai_s01_regslice_0_impl_1_place_report_incremental_reuse_1 ps_ai_s01_regslice_0_impl_1_place_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_s01_regslice_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_s01_regslice_0_impl_1_route_report_drc_0 ps_ai_s01_regslice_0_impl_1_route_report_methodology_0 ps_ai_s01_regslice_0_impl_1_route_report_power_0 ps_ai_s01_regslice_0_impl_1_route_report_route_status_0 ps_ai_s01_regslice_0_impl_1_route_report_timing_summary_0 ps_ai_s01_regslice_0_impl_1_route_report_incremental_reuse_0 ps_ai_s01_regslice_0_impl_1_route_report_clock_utilization_0 ps_ai_s01_regslice_0_impl_1_route_report_bus_skew_0 ps_ai_s01_regslice_0_impl_1_route_implementation_log_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_s01_regslice_0_impl_1_bitstream_report_webtalk_0 ps_ai_s01_regslice_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_s01_regslice_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_s01_regslice_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_s01_regslice_0_synth_1	CONSTRSET	ps_ai_s01_regslice_0
+run:ps_ai_s01_regslice_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_s01_regslice_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_s01_regslice_0_synth_1	SRCSET	ps_ai_s01_regslice_0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_s01_regslice_0_synth_1_synth_report_utilization_0 ps_ai_s01_regslice_0_synth_1_synth_synthesis_report_0
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_s01_regslice_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_s01_regslice_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_util_vector_logic_0_0_impl_1	CONSTRSET	ps_ai_util_vector_logic_0_0
+run:ps_ai_util_vector_logic_0_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_util_vector_logic_0_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_util_vector_logic_0_0_impl_1	SRCSET	ps_ai_util_vector_logic_0_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_init_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_opt_report_drc_0 ps_ai_util_vector_logic_0_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_place_report_io_0 ps_ai_util_vector_logic_0_0_impl_1_place_report_utilization_0 ps_ai_util_vector_logic_0_0_impl_1_place_report_control_sets_0 ps_ai_util_vector_logic_0_0_impl_1_place_report_incremental_reuse_0 ps_ai_util_vector_logic_0_0_impl_1_place_report_incremental_reuse_1 ps_ai_util_vector_logic_0_0_impl_1_place_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_util_vector_logic_0_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_route_report_drc_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_methodology_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_power_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_route_status_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_timing_summary_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_incremental_reuse_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_clock_utilization_0 ps_ai_util_vector_logic_0_0_impl_1_route_report_bus_skew_0 ps_ai_util_vector_logic_0_0_impl_1_route_implementation_log_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_util_vector_logic_0_0_impl_1_bitstream_report_webtalk_0 ps_ai_util_vector_logic_0_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_util_vector_logic_0_0_synth_1	CONSTRSET	ps_ai_util_vector_logic_0_0
+run:ps_ai_util_vector_logic_0_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_util_vector_logic_0_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_util_vector_logic_0_0_synth_1	SRCSET	ps_ai_util_vector_logic_0_0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_util_vector_logic_0_0_synth_1_synth_report_utilization_0 ps_ai_util_vector_logic_0_0_synth_1_synth_synthesis_report_0
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_util_vector_logic_0_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_util_vector_logic_0_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_xbar_0_impl_1	CONSTRSET	ps_ai_xbar_0
+run:ps_ai_xbar_0_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_xbar_0_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_0_impl_1	SRCSET	ps_ai_xbar_0
+run:ps_ai_xbar_0_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_init_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_opt_report_drc_0 ps_ai_xbar_0_impl_1_opt_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_place_report_io_0 ps_ai_xbar_0_impl_1_place_report_utilization_0 ps_ai_xbar_0_impl_1_place_report_control_sets_0 ps_ai_xbar_0_impl_1_place_report_incremental_reuse_0 ps_ai_xbar_0_impl_1_place_report_incremental_reuse_1 ps_ai_xbar_0_impl_1_place_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_xbar_0_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_0_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_xbar_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_xbar_0_impl_1_route_report_drc_0 ps_ai_xbar_0_impl_1_route_report_methodology_0 ps_ai_xbar_0_impl_1_route_report_power_0 ps_ai_xbar_0_impl_1_route_report_route_status_0 ps_ai_xbar_0_impl_1_route_report_timing_summary_0 ps_ai_xbar_0_impl_1_route_report_incremental_reuse_0 ps_ai_xbar_0_impl_1_route_report_clock_utilization_0 ps_ai_xbar_0_impl_1_route_report_bus_skew_0 ps_ai_xbar_0_impl_1_route_implementation_log_0
+run:ps_ai_xbar_0_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_xbar_0_impl_1_bitstream_report_webtalk_0 ps_ai_xbar_0_impl_1_bitstream_implementation_log_0
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_xbar_0_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_xbar_0_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_xbar_0_synth_1	CONSTRSET	ps_ai_xbar_0
+run:ps_ai_xbar_0_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_xbar_0_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_0_synth_1	SRCSET	ps_ai_xbar_0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_xbar_0_synth_1_synth_report_utilization_0 ps_ai_xbar_0_synth_1_synth_synthesis_report_0
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_xbar_0_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_xbar_0_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_xbar_1_impl_1	CONSTRSET	ps_ai_xbar_1
+run:ps_ai_xbar_1_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_xbar_1_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_1_impl_1	SRCSET	ps_ai_xbar_1
+run:ps_ai_xbar_1_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_init_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_opt_report_drc_0 ps_ai_xbar_1_impl_1_opt_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_place_report_io_0 ps_ai_xbar_1_impl_1_place_report_utilization_0 ps_ai_xbar_1_impl_1_place_report_control_sets_0 ps_ai_xbar_1_impl_1_place_report_incremental_reuse_0 ps_ai_xbar_1_impl_1_place_report_incremental_reuse_1 ps_ai_xbar_1_impl_1_place_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_xbar_1_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_1_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_xbar_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_xbar_1_impl_1_route_report_drc_0 ps_ai_xbar_1_impl_1_route_report_methodology_0 ps_ai_xbar_1_impl_1_route_report_power_0 ps_ai_xbar_1_impl_1_route_report_route_status_0 ps_ai_xbar_1_impl_1_route_report_timing_summary_0 ps_ai_xbar_1_impl_1_route_report_incremental_reuse_0 ps_ai_xbar_1_impl_1_route_report_clock_utilization_0 ps_ai_xbar_1_impl_1_route_report_bus_skew_0 ps_ai_xbar_1_impl_1_route_implementation_log_0
+run:ps_ai_xbar_1_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_xbar_1_impl_1_bitstream_report_webtalk_0 ps_ai_xbar_1_impl_1_bitstream_implementation_log_0
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_xbar_1_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_xbar_1_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_xbar_1_synth_1	CONSTRSET	ps_ai_xbar_1
+run:ps_ai_xbar_1_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_xbar_1_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_1_synth_1	SRCSET	ps_ai_xbar_1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_xbar_1_synth_1_synth_report_utilization_0 ps_ai_xbar_1_synth_1_synth_synthesis_report_0
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_xbar_1_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_xbar_1_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:ps_ai_xbar_4_impl_1	CONSTRSET	ps_ai_xbar_4
+run:ps_ai_xbar_4_impl_1	FLOW	Vivado Implementation 2018
+run:ps_ai_xbar_4_impl_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_4_impl_1	SRCSET	ps_ai_xbar_4
+run:ps_ai_xbar_4_impl_1	STEPS.INIT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_init_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.INIT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.INIT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.ARGS.VERBOSE	0
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.IS_ENABLED	1
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_opt_report_drc_0 ps_ai_xbar_4_impl_1_opt_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_phys_opt_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.PLACE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_impl_1	STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.PLACE_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_place_report_io_0 ps_ai_xbar_4_impl_1_place_report_utilization_0 ps_ai_xbar_4_impl_1_place_report_control_sets_0 ps_ai_xbar_4_impl_1_place_report_incremental_reuse_0 ps_ai_xbar_4_impl_1_place_report_incremental_reuse_1 ps_ai_xbar_4_impl_1_place_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.PLACE_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.PLACE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_4_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_post_place_power_opt_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_PLACE_POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_post_route_phys_opt_report_timing_summary_0 ps_ai_xbar_4_impl_1_post_route_phys_opt_report_bus_skew_0
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.POST_ROUTE_PHYS_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.POWER_OPT_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.POWER_OPT_DESIGN.IS_ENABLED	0
+run:ps_ai_xbar_4_impl_1	STEPS.POWER_OPT_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_power_opt_report_timing_summary_0
+run:ps_ai_xbar_4_impl_1	STEPS.POWER_OPT_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.POWER_OPT_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_impl_1	STEPS.ROUTE_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.ROUTE_DESIGN.REPORTS	ps_ai_xbar_4_impl_1_route_report_drc_0 ps_ai_xbar_4_impl_1_route_report_methodology_0 ps_ai_xbar_4_impl_1_route_report_power_0 ps_ai_xbar_4_impl_1_route_report_route_status_0 ps_ai_xbar_4_impl_1_route_report_timing_summary_0 ps_ai_xbar_4_impl_1_route_report_incremental_reuse_0 ps_ai_xbar_4_impl_1_route_report_clock_utilization_0 ps_ai_xbar_4_impl_1_route_report_bus_skew_0 ps_ai_xbar_4_impl_1_route_implementation_log_0
+run:ps_ai_xbar_4_impl_1	STEPS.ROUTE_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.ROUTE_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.LOGIC_LOCATION_FILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.NO_BINARY_BITFILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.RAW_BITFILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.READBACK_FILE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.ARGS.VERBOSE	0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.REPORTS	ps_ai_xbar_4_impl_1_bitstream_report_webtalk_0 ps_ai_xbar_4_impl_1_bitstream_implementation_log_0
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.TCL.POST	
+run:ps_ai_xbar_4_impl_1	STEPS.WRITE_BITSTREAM.TCL.PRE	
+run:ps_ai_xbar_4_impl_1	STRATEGY	Vivado Implementation Defaults
+run:ps_ai_xbar_4_synth_1	CONSTRSET	ps_ai_xbar_4
+run:ps_ai_xbar_4_synth_1	FLOW	Vivado Synthesis 2018
+run:ps_ai_xbar_4_synth_1	PART	xc7z030ffg676-2
+run:ps_ai_xbar_4_synth_1	SRCSET	ps_ai_xbar_4
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.REPORTS	ps_ai_xbar_4_synth_1_synth_report_utilization_0 ps_ai_xbar_4_synth_1_synth_synthesis_report_0
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:ps_ai_xbar_4_synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	
+run:ps_ai_xbar_4_synth_1	STRATEGY	Vivado Synthesis Defaults
+run:synth_1	CONSTRSET	constrs_1
+run:synth_1	FLOW	Vivado Synthesis 2018
+run:synth_1	PART	xc7z030ffg676-2
+run:synth_1	SRCSET	sources_1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.ASSERT	0
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.BUFG	12
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.CASCADE_DSP	auto
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.CONTROL_SET_OPT_THRESHOLD	auto
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE	Default
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.FANOUT_LIMIT	10000
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY	rebuilt
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.FSM_EXTRACTION	auto
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION	off
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.KEEP_EQUIVALENT_REGISTERS	0
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM	-1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_BRAM_CASCADE_HEIGHT	-1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_DSP	-1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM	-1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MAX_URAM_CASCADE_HEIGHT	-1
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS	
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_LC	0
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.NO_SRLEXTRACT	0
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.RESOURCE_SHARING	auto
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.RETIMING	0
+run:synth_1	STEPS.SYNTH_DESIGN.ARGS.SHREG_MIN_SIZE	3
+run:synth_1	STEPS.SYNTH_DESIGN.REPORTS	synth_1_synth_report_utilization_0 synth_1_synth_synthesis_report_0
+run:synth_1	STEPS.SYNTH_DESIGN.TCL.POST	
+run:synth_1	STEPS.SYNTH_DESIGN.TCL.PRE	<PROJECT>/ip_patch/process_control/synthesis_pre.tcl
+run:synth_1	STRATEGY	Vivado Synthesis Defaults

@@ -1,0 +1,19 @@
+/dts-v1/;
+/plugin/;
+
+/* Verified FMQL board: amba child cells 1/1, identity translation. No IRQ. */
+/ {
+    fragment@0 {
+        target-path = "/amba-apu@0";
+        __overlay__ {
+            #address-cells = <1>;
+            #size-cells = <1>;
+            relay-groundstation@400c1000 {
+                compatible = "relay,groundstation-uio";
+                reg = <0x400c1000 0x1000>;
+                linux,uio-name = "relay-groundstation";
+                status = "okay";
+            };
+        };
+    };
+};

@@ -1,0 +1,57 @@
+{
+  "schema": 2,
+  "helper": "./native/register_mmio_aarch64",
+  "identity_root": "./private/identities",
+  "uio": "/dev/uio0",
+  "helper_timeout_seconds": 2.0,
+  "hardware_window": 64,
+  "rounds": {
+    "count": 4,
+    "period_ns": 500000000,
+    "budget_ns": 150000000,
+    "facts_timeout_ns": 1000000000,
+    "retry_interval_ns": 250000000,
+    "source_timeout_ns": 1000000000,
+    "statistics_age_ns": 1000000000,
+    "quantum": 4,
+    "drain_limit": 256,
+    "poll_interval_ns": 1000000
+  },
+  "timing": {
+    "probe_timeout_ns": 1000000000,
+    "max_sample_age_ns": 1000000000,
+    "rtt_good_ns": 100000000,
+    "rtt_bad_ns": 250000000,
+    "aoi_good_ns": 400000000,
+    "aoi_bad_ns": 800000000,
+    "capacity": 64,
+    "window": 64
+  },
+  "quality": {
+    "required": 7,
+    "horizon_ns": 50000000,
+    "period_ns": 250000000
+  },
+  "nodes": [
+    {
+      "slot": 0,
+      "node": 1,
+      "session": 1,
+      "epoch": 1,
+      "revision": 1,
+      "nonce_hex": "00000000000000000000000000000000",
+      "key_file": "./private/node1.key",
+      "bind_ip": "192.0.2.1",
+      "bind_port": 41000,
+      "peer_ip": "192.0.2.2",
+      "peer_port": 42000,
+      "policy": {
+        "window": 64,
+        "min_count": 4,
+        "low_permille": 500,
+        "high_permille": 750,
+        "max_age_ms": 1000
+      }
+    }
+  ]
+}
